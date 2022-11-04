@@ -20,7 +20,7 @@ const Feed = () => {
 
   useEffect(() => {
     getPostsData();
-  }, [])
+  }, [data])
 
   // ====================
 
@@ -32,7 +32,7 @@ const Feed = () => {
         )
       }
 
-      <NewPost postData = {getPostsData} />
+      <NewPost useEffect />
     </div>
   )
 

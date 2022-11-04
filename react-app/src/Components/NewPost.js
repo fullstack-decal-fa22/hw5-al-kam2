@@ -13,7 +13,7 @@ const NewPost = ({ postsData }) => {
       body
     })
 
-    axios.post('http://localhost:3002/posts', {id: id, title: title, body: body}).then(postsData);
+    axios.post('http://localhost:3002/posts', {id: id, title: title, body: body}).then((data) => setData);
   }
 
   return <div>

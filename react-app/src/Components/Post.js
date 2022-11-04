@@ -1,4 +1,3 @@
-// ___________________ import statement
 import Comments from './Comments';
 
 const Post = ({ title, body, comments, id }) => {
