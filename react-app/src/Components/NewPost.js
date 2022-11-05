@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 
-const NewPost = ({ postsData }) => {
+const NewPost = ({ setData }) => {
   const [id, setId] = useState();
   const [title, setTitle] = useState();
   const [body, setBody] = useState();
